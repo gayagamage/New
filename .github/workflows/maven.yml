@@ -10,9 +10,9 @@ name: Build and Test Java-Maven Project
 
 on:
   push:
-    branches: [ master ]
+    branches: [ gayathri ]
   pull_request:
-    branches: [ master ]
+    branches: [ gayathri ]
 
 jobs:
   build_and_test:
