@@ -24,6 +24,7 @@ jobs:
       
     steps:
     - uses: actions/checkout@v3
+    - working-directory: ./app
     - name: Set up JDK 17
       uses: actions/setup-java@v3
       with:
